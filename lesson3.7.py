@@ -2,12 +2,10 @@
 # (number must be not greater than 10)
 
 
-x=2.145548
-if x<=10: x=f"{x:.2f}"
-print(x)
+x=str(2.145548)
+y=x[0:4]
+print(y)
 
-x=9.5748
-if x<=10: x=f"{x:.2f}"
-print(x)
-
-# այս առաջադրանքի լուծումը ԱԲ-ով եմ նայել, այդքան էլ չեմ հասկացել
+x=str(9.5748)
+y=x[0:4]
+print(y)
